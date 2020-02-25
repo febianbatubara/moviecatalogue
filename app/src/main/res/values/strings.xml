@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string name="title">Movie Title</string>
+    <string name="title_tv_show">TV Show Title</string>
+    <string name="rel_date">Release Date</string>
+    <string name="description">Description</string>
+    <string name="ImageViewDescription">Poster image of the movie</string>
+
+    <string name="tab_text_1">Movies</string>
+    <string name="tab_text_2">TV Shows</string>
+    <string name="fav_tab_text_1">Favourite Movies</string>
+    <string name="fav_tab_text_2">Favourite TV Shows</string>
+    <string name="menu_language">Language settings</string>
+    <string name="menu_alarm">Reminder settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="vote">Vote</string>
+    <string name="fav_activity">My Favourites</string>
+    <string name="empty_data">There are no favourite items yet</string>
+    <string name="search">Search</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="movie_detail_title">Movie Detail</string>
+    <string name="tv_detail_title">Tv Show Detail</string>
+    <string name="no_result">No result found</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="default_notification_channel_name">Reminder</string>
+    <string name="release_reminder">Release Reminder</string>
+    <string name="release_reminder_desc">Reminder showing the movie that released today</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="daily_reminder_desc">Reminder to return to the application</string>
+    <string name="daily_subscribe">Daily reminders are set</string>
+    <string name="daily_unsubscribe">Daily reminder has been removed</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

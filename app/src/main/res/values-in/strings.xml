@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string name="title">Movie Title</string>
+    <string name="title_tv_show">TV Show Title</string>
+    <string name="rel_date">Release Date</string>
+    <string name="description">Description</string>
+    <string name="ImageViewDescription">Poster image of the movie</string>
+
+    <string name="tab_text_1">Film</string>
+    <string name="tab_text_2">Acara TV</string>
+    <string name="fav_tab_text_1">Film Favorit</string>
+    <string name="fav_tab_text_2">Acara TV Favorit</string>
+    <string name="menu_language">Pengaturan Bahasa</string>
+    <string name="menu_alarm">Pengaturan Pengingat</string>
+    <string name="vote">Vote</string>
+
+    <string name="fav_activity">Favorit Saya</string>
+    <string name="empty_data">Belum ada item favorit</string>
+    <string name="search">Pencarian</string>
+    <string name="movie_detail_title">Detail Film</string>
+    <string name="tv_detail_title">Detail Acara Tv</string>
+    <string name="no_result">Tidak ada hasil yang ditemukan</string>
+
+    <string name="default_notification_channel_name">Pengingat</string>
+
+    <string name="release_reminder">Pengingat Rilis</string>
+    <string name="release_reminder_desc">Reminder yang menunjukkan film film yang rilis hari ini</string>
+    <string name="daily_reminder">Pengingat Harian</string>
+    <string name="daily_reminder_desc">Pengingat harian untuk kembali ke aplikasi</string>
+    <string name="daily_subscribe">Pengingat harian sudah diatur</string>
+    <string name="daily_unsubscribe">Pengingat harian sudah dicopot</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
