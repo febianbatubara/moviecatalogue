@@ -17,6 +17,7 @@ import android.widget.Toast;
 import androidx.core.app.NotificationCompat;
 import androidx.core.content.ContextCompat;
 
+import com.example.moviecatalogue.BuildConfig;
 import com.example.moviecatalogue.R;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
@@ -129,14 +130,13 @@ public class ReminderReceiver extends BroadcastReceiver {
     }
 
     public void setReleaseTodayMovie(final Context context) {
-        final String API_KEY = "548278649ac84d14d07a3bce676eb02e";
         AsyncHttpClient client = new AsyncHttpClient();
 
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault());
         Date date = new Date();
         final String today = dateFormat.format(date);
 
-        String url = "https://api.themoviedb.org/3/discover/movie?api_key=" + API_KEY + "&primary_release_date.gte=" + today
+        String url = "https://api.themoviedb.org/3/discover/movie?api_key=" + BuildConfig.API_KEY + "&primary_release_date.gte=" + today
                 + "&primary_release_date.lte=" + today;
 
         client.get(url, new AsyncHttpResponseHandler() {

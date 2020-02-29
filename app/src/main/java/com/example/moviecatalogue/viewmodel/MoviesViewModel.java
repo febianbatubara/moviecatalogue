@@ -6,6 +6,7 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
+import com.example.moviecatalogue.BuildConfig;
 import com.example.moviecatalogue.model.Movie;
 import com.loopj.android.http.AsyncHttpClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
@@ -19,7 +20,6 @@ import java.util.ArrayList;
 import cz.msebera.android.httpclient.Header;
 
 public class MoviesViewModel extends ViewModel {
-    private static final String API_KEY = "548278649ac84d14d07a3bce676eb02e";
     private MutableLiveData<ArrayList<Movie>> listMovies = new MutableLiveData<>();
 
     public LiveData<ArrayList<Movie>> getMovie() {
@@ -29,7 +29,7 @@ public class MoviesViewModel extends ViewModel {
     public void setMovie(final String movie) {
         AsyncHttpClient client = new AsyncHttpClient();
         final ArrayList<Movie> listItems = new ArrayList<>();
-        String url = "http://api.themoviedb.org/3/discover/movie?api_key=" + API_KEY + "&language=en-US";
+        String url = "http://api.themoviedb.org/3/discover/movie?api_key=" + BuildConfig.API_KEY + "&language=en-US";
 
         client.get(url, new AsyncHttpResponseHandler() {
             @Override
@@ -67,7 +67,7 @@ public class MoviesViewModel extends ViewModel {
     public void setSearchedMovie(String title){
         AsyncHttpClient client = new AsyncHttpClient();
         final ArrayList<Movie> listItems = new ArrayList<>();
-        String url = "https://api.themoviedb.org/3/search/movie?api_key=" + API_KEY + "&language=en-US&query=" + title;
+        String url = "https://api.themoviedb.org/3/search/movie?api_key=" + BuildConfig.API_KEY + "&language=en-US&query=" + title;
 
         client.get(url, new AsyncHttpResponseHandler() {
             @Override
