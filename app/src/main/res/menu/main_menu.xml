@@ -12,7 +12,7 @@
     <item
         android:id="@+id/fav_items"
         android:title="Favourite"
-        android:icon="@drawable/ic_favorited_gold"
+        android:icon="@drawable/ic_favourited_gold"
         app:showAsAction="always"/>
 
     <group android:menuCategory="container">
