@@ -8,6 +8,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="vote">Vote</string>
+    <string name="poster_image">Poster Image</string>
 
     <!-- TODO: Remove or change this placeholder text -->
 </resources>

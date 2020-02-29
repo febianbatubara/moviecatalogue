@@ -22,6 +22,7 @@
             android:layout_width="120dp"
             android:layout_height="220dp"
             android:layout_marginBottom="4dp"
+            android:contentDescription="@string/poster_image"
             android:scaleType="centerCrop"
             tools:src="@color/colorAccent" />
 
@@ -56,10 +57,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/txt_title"
-            android:layout_toRightOf="@id/txt_rel_date"
             android:layout_marginLeft="38dp"
             android:layout_marginRight="8dp"
             android:layout_marginBottom="4dp"
+            android:layout_toRightOf="@id/txt_rel_date"
             android:drawableLeft="@drawable/ic_star_border_black_18"
             android:drawablePadding="3dp"
             android:gravity="center_vertical"

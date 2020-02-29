@@ -32,6 +32,9 @@
     <string name="daily_reminder_desc">Reminder to return to the application</string>
     <string name="daily_subscribe">Daily reminders are set</string>
     <string name="daily_unsubscribe">Daily reminder has been removed</string>
+    <string name="background_poster">Background Poster</string>
+    <string name="poster_image">Poster Image</string>
+    <string name="app_logo">App logo</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->
