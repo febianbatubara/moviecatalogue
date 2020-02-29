@@ -29,6 +29,9 @@
     <string name="daily_reminder_desc">Pengingat harian untuk kembali ke aplikasi</string>
     <string name="daily_subscribe">Pengingat harian sudah diatur</string>
     <string name="daily_unsubscribe">Pengingat harian sudah dicopot</string>
+    <string name="background_poster">Poster Belakang</string>
+    <string name="poster_image">Gambar Poster</string>
+    <string name="app_logo">Logo Aplikasi</string>
 
     <!-- TODO: Remove or change this placeholder text -->
 </resources>
